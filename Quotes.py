@@ -91,8 +91,8 @@ def main():
         print("  ls authors\t\tList all authors")
         print("  random\t\tGet a random quote")
         print("  tag <tag>\t\tGet a random quote by tag")
-        print("  author <author>\tGet a bio of an author and a random quote by them")
-        print("  search <search>\tSearch for a quote")
+        print("  author <author-name>\tGet a bio of an author and a random quote by them")
+        print("  search <search-term>\tSearch for a quote")
         print("  help\t\t\tShow this help message")
     else:
         print("Usage: quote OR quote <command> [options]")
@@ -101,8 +101,8 @@ def main():
         print("  ls authors\t\tList all authors")
         print("  random\t\tGet a random quote")
         print("  tag <tag>\t\tGet a random quote by tag")
-        print("  author <author>\tGet a bio of an author and a random quote by them")
-        print("  search <search>\tSearch for a quote")
+        print("  author <author-name>\tGet a bio of an author and a random quote by them")
+        print("  search <search-term>\tSearch for a quote")
         print("  help\t\t\tShow this help message")
 
 if __name__ == "__main__":
